@@ -4,6 +4,75 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-55" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;开始&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-56" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;使用mosquitto搭建服务器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-57" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;上位机客户端搭建&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-58" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;小车客户端搭建&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-59" value="小车订阅主题A的消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-60" value="上位机发送主题A的指令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-61" value="小车接受消息并通过strcmp函数对比驱动小车运动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-62" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;结束&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="203" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ivi757B-2tyGgNrhGk1Y-56" target="Ivi757B-2tyGgNrhGk1Y-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-64" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="234.41" as="sourcePoint" />
+            <mxPoint x="110" y="234.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-67" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="234.41" as="sourcePoint" />
+            <mxPoint x="240" y="234.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-68" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="234.40999999999997" as="sourcePoint" />
+            <mxPoint x="370" y="234.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-69" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="234.40999999999997" as="sourcePoint" />
+            <mxPoint x="510" y="234.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-70" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="234.40999999999997" as="sourcePoint" />
+            <mxPoint x="670" y="234.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-72" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="234.40999999999997" as="sourcePoint" />
+            <mxPoint x="820" y="234.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ivi757B-2tyGgNrhGk1Y-73" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="234.40999999999997" as="sourcePoint" />
+            <mxPoint x="970" y="234.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ivi757B-2tyGgNrhGk1Y-74" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;开始&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-40" y="320" width="120" height="50" as="geometry" />
         </mxCell>
